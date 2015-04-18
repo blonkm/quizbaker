@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="toggles/css/toggles-iphone.css" /> <!-- iPhone theme -->
+	<link rel="stylesheet" href="toggles/css/toggles-dark.css" /> <!-- Dark theme -->
+	<link rel="stylesheet" href="toggles/css/toggles-light.css" /> <!-- Light theme -->
+	<link rel="stylesheet" href="toggles/css/toggles-modern.css" /> <!-- Modern theme -->
+	<link rel="stylesheet" href="toggles/css/toggles-soft.css" /> <!-- Soft theme -->
+</head>
+<body>
+	<div class="toggle-iphone"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="toggles/js/jquery.toggles.js"></script>
+
+	<script>
+	$('.toggle-iphone,.toggle-dark,.toggle-modern,.toggle-light,.toggle-soft').toggles({
+		width : 100,
+		height : 30
+	});
+	</script>
+</body>
+</html>
