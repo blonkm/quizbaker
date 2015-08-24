@@ -1,3 +1,6 @@
+** Please note this project is created in ASP (classic). For the PHP version see http://github.com/blonkm/quizbaker-PHP
+
+
 These are instructions to install the server side parts 
 
 # <a name="Installation_Instructions"></a>Installation Instructions[](#Installation_Instructions)
